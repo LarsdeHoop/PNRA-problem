@@ -1,0 +1,3688 @@
+{
+    "instance_name": "m04",
+    "number_of_days": 14,
+    "skill_levels": 2,
+    "shift_types": [
+        "early",
+        "late",
+        "night"
+    ],
+    "age_groups": [
+        "infant",
+        "young",
+        "adult",
+        "elderly"
+    ],
+    "patients": [
+        {
+            "id": "a0",
+            "gender": "B",
+            "age_group": "elderly",
+            "admission_day": 0,
+            "length_of_stay": 3,
+            "workload_produced": [
+                1,
+                3,
+                1,
+                1,
+                3,
+                1,
+                2,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0
+            ],
+            "room_id": "r5",
+            "incompatible_room_ids": [],
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "a1",
+            "gender": "B",
+            "age_group": "elderly",
+            "admission_day": 0,
+            "length_of_stay": 1,
+            "workload_produced": [
+                1,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0
+            ],
+            "room_id": "r2",
+            "incompatible_room_ids": [],
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "a2",
+            "gender": "B",
+            "age_group": "infant",
+            "admission_day": 0,
+            "length_of_stay": 5,
+            "workload_produced": [
+                2,
+                1,
+                1,
+                1,
+                3,
+                1,
+                3,
+                1,
+                1,
+                2,
+                3,
+                1,
+                3,
+                1,
+                1
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "room_id": "r5",
+            "incompatible_room_ids": [],
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "a3",
+            "gender": "B",
+            "age_group": "adult",
+            "admission_day": 0,
+            "length_of_stay": 3,
+            "workload_produced": [
+                2,
+                2,
+                1,
+                3,
+                2,
+                1,
+                3,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": "r3",
+            "incompatible_room_ids": [],
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "a4",
+            "gender": "B",
+            "age_group": "elderly",
+            "admission_day": 0,
+            "length_of_stay": 3,
+            "workload_produced": [
+                1,
+                3,
+                1,
+                1,
+                2,
+                1,
+                1,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+            ],
+            "room_id": "r0",
+            "incompatible_room_ids": [],
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "a5",
+            "gender": "B",
+            "age_group": "elderly",
+            "admission_day": 0,
+            "length_of_stay": 1,
+            "workload_produced": [
+                2,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                0,
+                0,
+                0
+            ],
+            "room_id": "r4",
+            "incompatible_room_ids": [],
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "a6",
+            "gender": "B",
+            "age_group": "elderly",
+            "admission_day": 0,
+            "length_of_stay": 4,
+            "workload_produced": [
+                1,
+                1,
+                1,
+                3,
+                2,
+                1,
+                3,
+                1,
+                1,
+                1,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "room_id": "r1",
+            "incompatible_room_ids": [],
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p00",
+            "gender": "A",
+            "age_group": "infant",
+            "length_of_stay": 5,
+            "workload_produced": [
+                3,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                3,
+                3,
+                2,
+                3,
+                1,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r2"
+            ],
+            "admission_day": 6,
+            "emergency": true,
+            "registration_day": 6
+        },
+        {
+            "id": "p01",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 7,
+            "workload_produced": [
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                3,
+                3,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1,
+                1,
+                1
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r5"
+            ],
+            "admission_day": 11,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p02",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 2,
+            "workload_produced": [
+                2,
+                2,
+                1,
+                3,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r2"
+            ],
+            "admission_day": 0,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p03",
+            "gender": "B",
+            "age_group": "infant",
+            "length_of_stay": 3,
+            "workload_produced": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                2,
+                2
+            ],
+            "skill_level_required": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 4,
+            "emergency": true,
+            "registration_day": 3
+        },
+        {
+            "id": "p04",
+            "gender": "B",
+            "age_group": "adult",
+            "length_of_stay": 9,
+            "workload_produced": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                2,
+                3,
+                2,
+                3,
+                2,
+                2,
+                3,
+                2,
+                2,
+                3,
+                2,
+                1,
+                3,
+                3,
+                2,
+                3,
+                3,
+                2,
+                3,
+                2,
+                1
+            ],
+            "skill_level_required": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r5"
+            ],
+            "admission_day": 3,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p05",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 5,
+            "workload_produced": [
+                3,
+                2,
+                1,
+                2,
+                3,
+                2,
+                3,
+                2,
+                1,
+                3,
+                1,
+                2,
+                1,
+                2,
+                2
+            ],
+            "skill_level_required": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 8,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p06",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 5,
+            "workload_produced": [
+                2,
+                3,
+                1,
+                2,
+                2,
+                2,
+                3,
+                3,
+                1,
+                2,
+                3,
+                1,
+                1,
+                1,
+                2
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r4"
+            ],
+            "admission_day": 3,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p07",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 3,
+            "workload_produced": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r1"
+            ],
+            "admission_day": 6,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p08",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 3,
+            "workload_produced": [
+                2,
+                2,
+                1,
+                2,
+                3,
+                1,
+                3,
+                3,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r2"
+            ],
+            "admission_day": 8,
+            "emergency": true,
+            "registration_day": 7
+        },
+        {
+            "id": "p09",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 5,
+            "workload_produced": [
+                3,
+                3,
+                2,
+                2,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
+                1,
+                1,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 4,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p10",
+            "gender": "A",
+            "age_group": "adult",
+            "length_of_stay": 7,
+            "workload_produced": [
+                3,
+                2,
+                2,
+                2,
+                3,
+                2,
+                2,
+                3,
+                2,
+                3,
+                2,
+                1,
+                2,
+                3,
+                1,
+                3,
+                3,
+                2,
+                3,
+                2,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 4,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p11",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 2,
+            "workload_produced": [
+                2,
+                3,
+                1,
+                2,
+                1,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r2"
+            ],
+            "admission_day": 1,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p12",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 9,
+            "workload_produced": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
+                2,
+                2,
+                3,
+                2,
+                3,
+                3,
+                2,
+                3,
+                3,
+                1,
+                2,
+                2,
+                1,
+                3,
+                1,
+                1,
+                2,
+                2,
+                1
+            ],
+            "skill_level_required": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 10,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p13",
+            "gender": "A",
+            "age_group": "adult",
+            "length_of_stay": 3,
+            "workload_produced": [
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "skill_level_required": [
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 3,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p14",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 4,
+            "workload_produced": [
+                2,
+                2,
+                1,
+                3,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r5"
+            ],
+            "admission_day": 5,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p15",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 5,
+            "workload_produced": [
+                2,
+                2,
+                1,
+                3,
+                2,
+                2,
+                3,
+                3,
+                2,
+                2,
+                3,
+                2,
+                3,
+                2,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r5"
+            ],
+            "admission_day": 11,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p16",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 7,
+            "workload_produced": [
+                3,
+                2,
+                1,
+                3,
+                2,
+                1,
+                2,
+                2,
+                2,
+                3,
+                2,
+                1,
+                2,
+                3,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r5"
+            ],
+            "admission_day": 13,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p17",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 6,
+            "workload_produced": [
+                2,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                3,
+                1,
+                2,
+                2,
+                2,
+                2,
+                3,
+                1,
+                3,
+                1,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r0",
+                "r4"
+            ],
+            "admission_day": 13,
+            "emergency": true,
+            "registration_day": 12
+        },
+        {
+            "id": "p18",
+            "gender": "B",
+            "age_group": "adult",
+            "length_of_stay": 3,
+            "workload_produced": [
+                2,
+                2,
+                2,
+                3,
+                2,
+                2,
+                3,
+                2,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r4"
+            ],
+            "admission_day": 9,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p19",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 8,
+            "workload_produced": [
+                2,
+                3,
+                1,
+                3,
+                2,
+                2,
+                2,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                3,
+                1,
+                3,
+                3,
+                2,
+                3,
+                3,
+                1,
+                1,
+                2,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r4",
+                "r5"
+            ],
+            "admission_day": 10,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p20",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 2,
+            "workload_produced": [
+                2,
+                1,
+                1,
+                3,
+                2,
+                2
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r0"
+            ],
+            "admission_day": 2,
+            "emergency": true,
+            "registration_day": 0
+        },
+        {
+            "id": "p21",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 2,
+            "workload_produced": [
+                2,
+                1,
+                1,
+                3,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 7,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p22",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 6,
+            "workload_produced": [
+                3,
+                3,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
+                1,
+                2,
+                2,
+                1,
+                3,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 13,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p23",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 4,
+            "workload_produced": [
+                3,
+                3,
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                2,
+                2,
+                1,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 9,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p24",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 4,
+            "workload_produced": [
+                2,
+                3,
+                1,
+                2,
+                2,
+                2,
+                3,
+                3,
+                1,
+                2,
+                1,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r1",
+                "r3",
+                "r4"
+            ],
+            "admission_day": 13,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p25",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 6,
+            "workload_produced": [
+                3,
+                2,
+                1,
+                2,
+                3,
+                2,
+                3,
+                2,
+                2,
+                3,
+                2,
+                1,
+                2,
+                3,
+                2,
+                1,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r2",
+                "r5"
+            ],
+            "admission_day": 11,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p26",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 9,
+            "workload_produced": [
+                2,
+                3,
+                2,
+                3,
+                3,
+                1,
+                3,
+                3,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
+                1,
+                3,
+                3,
+                2,
+                3,
+                1,
+                2
+            ],
+            "skill_level_required": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r3"
+            ],
+            "admission_day": 9,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p27",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 2,
+            "workload_produced": [
+                1,
+                1,
+                1,
+                1,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                0,
+                0,
+                1,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r4"
+            ],
+            "admission_day": 1,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p28",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 3,
+            "workload_produced": [
+                2,
+                3,
+                1,
+                3,
+                3,
+                1,
+                1,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r2"
+            ],
+            "admission_day": 7,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p29",
+            "gender": "A",
+            "age_group": "adult",
+            "length_of_stay": 3,
+            "workload_produced": [
+                3,
+                2,
+                2,
+                3,
+                2,
+                2,
+                2,
+                2,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 4,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p30",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 2,
+            "workload_produced": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                2
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 6,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p31",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 4,
+            "workload_produced": [
+                3,
+                2,
+                1,
+                3,
+                1,
+                1,
+                3,
+                1,
+                1,
+                1,
+                2,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 9,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p32",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 7,
+            "workload_produced": [
+                2,
+                2,
+                1,
+                3,
+                2,
+                1,
+                3,
+                3,
+                1,
+                2,
+                3,
+                1,
+                3,
+                3,
+                1,
+                2,
+                3,
+                2,
+                3,
+                2,
+                1
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r0",
+                "r2"
+            ],
+            "admission_day": 11,
+            "emergency": true,
+            "registration_day": 11
+        },
+        {
+            "id": "p33",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 4,
+            "workload_produced": [
+                2,
+                3,
+                1,
+                3,
+                3,
+                1,
+                2,
+                2,
+                1,
+                3,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 2,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p34",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 6,
+            "workload_produced": [
+                2,
+                3,
+                2,
+                2,
+                3,
+                1,
+                2,
+                2,
+                2,
+                3,
+                2,
+                1,
+                3,
+                2,
+                1,
+                3,
+                2,
+                1
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 13,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p35",
+            "gender": "B",
+            "age_group": "infant",
+            "length_of_stay": 3,
+            "workload_produced": [
+                2,
+                2,
+                1,
+                2,
+                3,
+                1,
+                3,
+                2,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r0"
+            ],
+            "admission_day": 0,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p36",
+            "gender": "B",
+            "age_group": "adult",
+            "length_of_stay": 5,
+            "workload_produced": [
+                2,
+                2,
+                1,
+                3,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
+                3,
+                1,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r5"
+            ],
+            "admission_day": 7,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p37",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 3,
+            "workload_produced": [
+                3,
+                2,
+                1,
+                3,
+                2,
+                1,
+                1,
+                2,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r2"
+            ],
+            "admission_day": 10,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p38",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 2,
+            "workload_produced": [
+                2,
+                3,
+                2,
+                1,
+                3,
+                2
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r3"
+            ],
+            "admission_day": 4,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p39",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 5,
+            "workload_produced": [
+                2,
+                3,
+                2,
+                3,
+                3,
+                1,
+                2,
+                2,
+                2,
+                2,
+                1,
+                2,
+                2,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 13,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p40",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 3,
+            "workload_produced": [
+                2,
+                2,
+                1,
+                2,
+                1,
+                2,
+                3,
+                2,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 3,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p41",
+            "gender": "B",
+            "age_group": "adult",
+            "length_of_stay": 7,
+            "workload_produced": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                2,
+                3,
+                2,
+                2,
+                2,
+                1,
+                2,
+                2,
+                2,
+                3,
+                1,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 4,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p42",
+            "gender": "A",
+            "age_group": "young",
+            "length_of_stay": 4,
+            "workload_produced": [
+                2,
+                3,
+                1,
+                2,
+                2,
+                1,
+                3,
+                1,
+                1,
+                3,
+                2,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 5,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p43",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 4,
+            "workload_produced": [
+                3,
+                3,
+                1,
+                2,
+                2,
+                2,
+                3,
+                3,
+                1,
+                2,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 1,
+            "emergency": true,
+            "registration_day": 1
+        },
+        {
+            "id": "p44",
+            "gender": "B",
+            "age_group": "adult",
+            "length_of_stay": 5,
+            "workload_produced": [
+                3,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                3,
+                2,
+                1,
+                2,
+                1,
+                1
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 2,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p45",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 3,
+            "workload_produced": [
+                3,
+                3,
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 1,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p46",
+            "gender": "B",
+            "age_group": "adult",
+            "length_of_stay": 4,
+            "workload_produced": [
+                2,
+                3,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 3,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p47",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 3,
+            "workload_produced": [
+                2,
+                2,
+                1,
+                3,
+                1,
+                2,
+                2,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r5"
+            ],
+            "admission_day": 8,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p48",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 4,
+            "workload_produced": [
+                3,
+                2,
+                2,
+                3,
+                2,
+                1,
+                2,
+                3,
+                2,
+                1,
+                2,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 1,
+            "emergency": true,
+            "registration_day": 0
+        },
+        {
+            "id": "p49",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 6,
+            "workload_produced": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                2,
+                2,
+                2,
+                3,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                1,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r1"
+            ],
+            "admission_day": 13,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p50",
+            "gender": "B",
+            "age_group": "adult",
+            "length_of_stay": 3,
+            "workload_produced": [
+                2,
+                2,
+                1,
+                2,
+                3,
+                2,
+                2,
+                1,
+                1
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r0"
+            ],
+            "admission_day": 1,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p51",
+            "gender": "A",
+            "age_group": "adult",
+            "length_of_stay": 4,
+            "workload_produced": [
+                3,
+                2,
+                2,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r2",
+                "r4"
+            ],
+            "admission_day": 7,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p52",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 12,
+            "workload_produced": [
+                3,
+                3,
+                2,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                3,
+                2,
+                3,
+                1,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r4"
+            ],
+            "admission_day": 11,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p53",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 3,
+            "workload_produced": [
+                2,
+                3,
+                1,
+                2,
+                2,
+                1,
+                2,
+                3,
+                1
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 7,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p54",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 3,
+            "workload_produced": [
+                2,
+                3,
+                2,
+                2,
+                3,
+                1,
+                2,
+                2,
+                2
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 1,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p55",
+            "gender": "A",
+            "age_group": "infant",
+            "length_of_stay": 5,
+            "workload_produced": [
+                3,
+                2,
+                1,
+                3,
+                2,
+                2,
+                2,
+                2,
+                1,
+                2,
+                1,
+                2,
+                2,
+                3,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [],
+            "admission_day": 6,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p56",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 5,
+            "workload_produced": [
+                3,
+                3,
+                2,
+                2,
+                2,
+                1,
+                2,
+                3,
+                2,
+                2,
+                3,
+                2,
+                1,
+                1,
+                2
+            ],
+            "skill_level_required": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r3"
+            ],
+            "admission_day": 11,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p57",
+            "gender": "A",
+            "age_group": "elderly",
+            "length_of_stay": 4,
+            "workload_produced": [
+                2,
+                3,
+                2,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                3,
+                2,
+                1
+            ],
+            "skill_level_required": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r1"
+            ],
+            "admission_day": 4,
+            "emergency": false,
+            "registration_day": 0
+        },
+        {
+            "id": "p58",
+            "gender": "B",
+            "age_group": "elderly",
+            "length_of_stay": 3,
+            "workload_produced": [
+                3,
+                2,
+                2,
+                3,
+                2,
+                1,
+                2,
+                2,
+                2
+            ],
+            "skill_level_required": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0
+            ],
+            "room_id": null,
+            "incompatible_room_ids": [
+                "r3"
+            ],
+            "admission_day": 1,
+            "emergency": false,
+            "registration_day": 0
+        }
+    ],
+    "nurses": [
+        {
+            "id": "n00",
+            "skill_level": 1,
+            "working_shifts": [
+                {
+                    "day": 0,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 2,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 3,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 4,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 7,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 8,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 9,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 10,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 12,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 13,
+                    "shift": "late",
+                    "max_load": 12
+                }
+            ]
+        },
+        {
+            "id": "n01",
+            "skill_level": 1,
+            "working_shifts": [
+                {
+                    "day": 0,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 2,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 3,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 4,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 5,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 6,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 8,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 9,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 10,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 11,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 12,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 13,
+                    "shift": "late",
+                    "max_load": 12
+                }
+            ]
+        },
+        {
+            "id": "n02",
+            "skill_level": 0,
+            "working_shifts": [
+                {
+                    "day": 0,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 1,
+                    "shift": "night",
+                    "max_load": 10
+                },
+                {
+                    "day": 2,
+                    "shift": "night",
+                    "max_load": 10
+                },
+                {
+                    "day": 4,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 5,
+                    "shift": "night",
+                    "max_load": 10
+                },
+                {
+                    "day": 7,
+                    "shift": "night",
+                    "max_load": 10
+                },
+                {
+                    "day": 8,
+                    "shift": "night",
+                    "max_load": 10
+                },
+                {
+                    "day": 10,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 11,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 12,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 13,
+                    "shift": "late",
+                    "max_load": 10
+                }
+            ]
+        },
+        {
+            "id": "n03",
+            "skill_level": 1,
+            "working_shifts": [
+                {
+                    "day": 0,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 1,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 2,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 3,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 4,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 5,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 6,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 8,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 9,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 10,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 11,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 12,
+                    "shift": "night",
+                    "max_load": 12
+                }
+            ]
+        },
+        {
+            "id": "n04",
+            "skill_level": 1,
+            "working_shifts": [
+                {
+                    "day": 0,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 1,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 2,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 3,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 4,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 6,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 7,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 8,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 10,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 11,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 12,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 13,
+                    "shift": "early",
+                    "max_load": 12
+                }
+            ]
+        },
+        {
+            "id": "n05",
+            "skill_level": 1,
+            "working_shifts": [
+                {
+                    "day": 0,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 1,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 2,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 3,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 4,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 6,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 7,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 9,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 10,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 11,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 12,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 13,
+                    "shift": "night",
+                    "max_load": 12
+                }
+            ]
+        },
+        {
+            "id": "n06",
+            "skill_level": 0,
+            "working_shifts": [
+                {
+                    "day": 0,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 1,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 2,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 3,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 4,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 6,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 7,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 8,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 9,
+                    "shift": "night",
+                    "max_load": 10
+                },
+                {
+                    "day": 11,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 12,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 13,
+                    "shift": "late",
+                    "max_load": 10
+                }
+            ]
+        },
+        {
+            "id": "n07",
+            "skill_level": 0,
+            "working_shifts": [
+                {
+                    "day": 0,
+                    "shift": "night",
+                    "max_load": 10
+                },
+                {
+                    "day": 1,
+                    "shift": "night",
+                    "max_load": 10
+                },
+                {
+                    "day": 2,
+                    "shift": "night",
+                    "max_load": 10
+                },
+                {
+                    "day": 4,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 6,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 7,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 8,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 10,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 11,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 12,
+                    "shift": "night",
+                    "max_load": 10
+                }
+            ]
+        },
+        {
+            "id": "n08",
+            "skill_level": 1,
+            "working_shifts": [
+                {
+                    "day": 1,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 3,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 5,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 6,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 7,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 8,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 9,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 11,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 12,
+                    "shift": "night",
+                    "max_load": 12
+                }
+            ]
+        },
+        {
+            "id": "n09",
+            "skill_level": 0,
+            "working_shifts": [
+                {
+                    "day": 1,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 2,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 3,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 5,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 6,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 7,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 8,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 9,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 10,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 11,
+                    "shift": "night",
+                    "max_load": 10
+                },
+                {
+                    "day": 13,
+                    "shift": "early",
+                    "max_load": 10
+                }
+            ]
+        },
+        {
+            "id": "n10",
+            "skill_level": 0,
+            "working_shifts": [
+                {
+                    "day": 0,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 1,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 3,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 5,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 6,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 8,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 9,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 10,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 12,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 13,
+                    "shift": "night",
+                    "max_load": 10
+                }
+            ]
+        },
+        {
+            "id": "n11",
+            "skill_level": 0,
+            "working_shifts": [
+                {
+                    "day": 0,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 1,
+                    "shift": "night",
+                    "max_load": 10
+                },
+                {
+                    "day": 3,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 5,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 7,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 8,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 9,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 10,
+                    "shift": "night",
+                    "max_load": 10
+                },
+                {
+                    "day": 12,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 13,
+                    "shift": "night",
+                    "max_load": 10
+                }
+            ]
+        },
+        {
+            "id": "n12",
+            "skill_level": 1,
+            "working_shifts": [
+                {
+                    "day": 0,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 2,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 3,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 5,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 7,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 9,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 10,
+                    "shift": "night",
+                    "max_load": 12
+                },
+                {
+                    "day": 13,
+                    "shift": "early",
+                    "max_load": 12
+                }
+            ]
+        },
+        {
+            "id": "n13",
+            "skill_level": 0,
+            "working_shifts": [
+                {
+                    "day": 4,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 5,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 6,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 7,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 9,
+                    "shift": "late",
+                    "max_load": 10
+                },
+                {
+                    "day": 11,
+                    "shift": "night",
+                    "max_load": 10
+                },
+                {
+                    "day": 13,
+                    "shift": "early",
+                    "max_load": 10
+                }
+            ]
+        },
+        {
+            "id": "n14",
+            "skill_level": 0,
+            "working_shifts": [
+                {
+                    "day": 4,
+                    "shift": "early",
+                    "max_load": 10
+                },
+                {
+                    "day": 5,
+                    "shift": "late",
+                    "max_load": 10
+                }
+            ]
+        },
+        {
+            "id": "n15",
+            "skill_level": 1,
+            "working_shifts": [
+                {
+                    "day": 4,
+                    "shift": "early",
+                    "max_load": 12
+                },
+                {
+                    "day": 5,
+                    "shift": "late",
+                    "max_load": 12
+                },
+                {
+                    "day": 6,
+                    "shift": "late",
+                    "max_load": 12
+                }
+            ]
+        }
+    ],
+    "rooms": [
+        {
+            "id": "r0",
+            "capacity": 3
+        },
+        {
+            "id": "r1",
+            "capacity": 2
+        },
+        {
+            "id": "r2",
+            "capacity": 3
+        },
+        {
+            "id": "r3",
+            "capacity": 4
+        },
+        {
+            "id": "r4",
+            "capacity": 3
+        },
+        {
+            "id": "r5",
+            "capacity": 2
+        }
+    ]
+}
